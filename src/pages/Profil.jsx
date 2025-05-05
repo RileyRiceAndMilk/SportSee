@@ -89,7 +89,7 @@ function App() {
   const todayScore = user.todayScore || user.score;
   const scoreData = [
     { name: "Score", value: todayScore * 200 },
-    { name: "Reste", value: 100 - todayScore * 100 },
+    { name: "Reste", value: 100 - todayScore * 200 },
   ];
 
   return (
